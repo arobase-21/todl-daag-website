@@ -1,0 +1,44 @@
+trigger: none
+
+pool:
+  vmImage: ubuntu-latest
+
+variables:
+  phpVersion: 8.1
+
+steps:
+  - script: |
+      sudo update-alternatives --set php /usr/bin/php$(phpVersion)
+      sudo update-alternatives --set phar /usr/bin/phar$(phpVersion)
+      sudo update-alternatives --set phpdbg /usr/bin/phpdbg$(phpVersion)
+      sudo update-alternatives --set php-cgi /usr/bin/php-cgi$(phpVersion)
+      sudo update-alternatives --set phar.phar /usr/bin/phar.phar$(phpVersion)
+      php -version
+    displayName: 'Use PHP version $(phpVersion)'
+
+
+  - script: composer install --no-interaction --prefer-dist
+    displayName: 'Composer install'
+
+  - script: npm install && npm install cross-env && export NODE_OPTIONS=--openssl-legacy-provider && npm run build
+    displayName: 'NPM install'
+
+  - script: cp .env.example .env && php artisan key:generate
+    displayName: 'Laravel Config'
+
+  - script: |
+      echo "BUILD_ID=$(Build.BuildId)" >> .env
+    displayName: 'Add build ID to .env'
+
+  - script: |
+      rm -rf .git
+      rm -rf node_modules
+      zip -r $(Build.BuildId).zip .
+    displayName: 'Create Archive'
+
+  - task: PublishBuildArtifacts@1
+    displayName: 'Publish Artifact'
+    inputs:
+      pathtoPublish: '$(System.DefaultWorkingDirectory)/$(Build.BuildId).zip'
+      artifactName: 'drop'
+      publishLocation: 'Container'
