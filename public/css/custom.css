@@ -1,0 +1,29 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+
+h3.text-transform-none.font-secondary.fw-normal:first-letter {
+    text-transform: capitalize;
+}
+.list-numbers {
+    counter-reset: item;
+}
+
+ol.list-numbers li {
+    font-size: 18px;
+    list-style-type: none;
+    margin-top: 1.25rem;
+    font-family: var(--cnvs-primary-font);
+    font-weight: 400;
+}
+
+ol.list-numbers li::before {
+    content: counter(item) ". ";
+    counter-increment: item;
+    margin-right: 7px;
+    color: var(--cnvs-themecolor, #267DF4);
+    font-weight: 700;
+}
