@@ -6,8 +6,17 @@
 
                 <div id="logo">
                     <a href="/" class="p-2">
-                        <img class="logo-default" srcset="{{ asset('images/logos/todl_consulting_logo_colored.png') }}, {{ asset('images/logos/todl_consulting_logo_colored_2x.png') }} 2x" src="{{ asset('images/logos/todl_consulting_logo_colored_2x.png') }}" alt="Canvas Logo">
-                        <img class="logo-dark" srcset="{{ asset('images/logos/todl_consulting_logo_white.png') }}, {{ asset('images/logos/todl_consulting_logo_white_2x.png') }} 2x" src="{{ asset('images/logos/todl_consulting_logo_white_2x.png') }}" alt="Canvas Logo">
+                        <img
+                            class="logo-default"
+                            srcset="{{ asset('images/logos/todl_consulting_logo_colored.png') }}, {{ asset('images/logos/todl_consulting_logo_colored_2x.png') }} 2x"
+                            src="{{ asset('images/logos/todl_consulting_logo_colored_2x.png') }}" alt="Canvas Logo"
+                        >
+                        <img
+                            class="logo-dark"
+                            srcset="{{ asset('images/logos/todl_consulting_logo_white.png') }}, {{ asset('images/logos/todl_consulting_logo_white_2x.png') }} 2x"
+                            src="{{ asset('images/logos/todl_consulting_logo_white_2x.png') }}"
+                            alt="Canvas Logo"
+                        >
                     </a>
                 </div>
 
@@ -21,8 +30,6 @@
                     </button>
                 </div>
 
-                <!-- Primary Navigation
-                ============================================= -->
                 <nav class="primary-menu">
 
                     <ul class="menu-container">
@@ -39,7 +46,7 @@
                         <li class="menu-item"><a class="menu-link" href="#"><div>Agenda</div></a></li>
                     </ul>
 
-                </nav><!-- #primary-menu end -->
+                </nav>
 
             </div>
         </div>

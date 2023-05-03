@@ -1,7 +1,5 @@
 <footer id="footer" class="border-0" style="padding: 30px 0; background-color: #ededed">
     <div class="container">
-        <!-- Footer Widgets
-        ============================================= -->
         <div class="footer-widgets-wrap">
 
             <div class="row col-mb-50">

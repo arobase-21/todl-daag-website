@@ -69,8 +69,6 @@
                         <span>Découvrez comment nous pouvons aider votre entreprise agricole à réussir grâce à nos services sur mesure et notre expertise de l'industrie.</span>
                     </div>
 
-                    <!-- Features colomns
-                    ============================================= -->
                     <div class="row align-items-stretch g-4">
                         <div class="col-lg-3 col-md-6">
                             <div class="feature-box media-box fbox-bg h-100">
