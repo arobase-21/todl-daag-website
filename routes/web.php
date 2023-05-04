@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\ServiceController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,4 +15,10 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', HomeController::class);
+Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::get('/contact-us', function () {
+    return view('contacts');
+})->name('contacts');
+Route::resource('services', ServiceController::class)
+    ->name('show', 'service-details')
+    ->name('index', 'services');

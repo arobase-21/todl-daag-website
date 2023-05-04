@@ -19,6 +19,9 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        //
+        view()->share('companyContacts', [
+            'email' => 'contact@todlconsulting.com',
+            'phone' => '+(228)93-51-80-32',
+        ]);
     }
 }

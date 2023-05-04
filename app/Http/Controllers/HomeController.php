@@ -12,7 +12,7 @@ class HomeController extends Controller
     /**
      * Handle the incoming request.
      */
-    public function __invoke(Request $request): View|Application|Factory
+    public function index(Request $request): View|Application|Factory
     {
         return view('home');
     }
