@@ -19,7 +19,7 @@
                     </div>
                 </div>
 
-                <img src="{{ asset('demos/coworking/images/about/hero.jpg') }}" alt="Image" class="rounded-4 my-5">
+                <img src="{{ asset('images/services/hero/4.png') }}" alt="Image" class="rounded-4 my-5">
 
                 <div class="row mt-5 mb-5 gutter-lg-50 align-items-center">
                     <div class="col-lg-6 p-lg-5">
@@ -132,5 +132,5 @@
 
 
 @section('script')
-
+    <script src="{{ asset('js/plugins.bootstrap.js') }}"></script>
 @endsection

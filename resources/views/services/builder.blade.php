@@ -18,7 +18,7 @@
                     </div>
                 </div>
 
-                <img src="{{ asset('demos/coworking/images/about/hero.jpg') }}" alt="Image" class="rounded-4 my-5">
+                <img src="{{ asset('images/services/hero/3.png') }}" alt="Image" class="rounded-4 my-5">
             </div>
 
             @include('partials.contact')
@@ -28,5 +28,5 @@
 
 
 @section('script')
-
+    <script src="{{ asset('js/plugins.bootstrap.js') }}"></script>
 @endsection
