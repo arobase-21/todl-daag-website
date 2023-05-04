@@ -23,7 +23,7 @@ class ServiceController extends Controller
     public function show(Request $request, string $slug): View|Application|Factory|\Illuminate\Contracts\Foundation\Application
     {
         if (!in_array($slug, $this->services)) {
-            return abort(404);
+            abort(404);
         }
         return view('services.' . $slug);
     }
