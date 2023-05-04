@@ -1,69 +1,17 @@
-<footer id="footer" class="border-0" style="padding: 30px 0; background-color: #ededed">
-    <div class="container">
-        <div class="footer-widgets-wrap">
+<footer id="footer" class="dark">
+    <div id="copyrights">
+        <div class="container">
 
-            <div class="row col-mb-50">
-                <div class="col-md-3">
-                    <img src="{{ asset('images/logos/todl_consulting_logo_colored_2x.png') }}" alt="Image" style="margin-top: -30px">
+            <div class="row justify-content-between col-mb-30">
+                <div class="col-12 col-md-auto text-center text-md-start">
+                    Copyrights &copy; 2023 All Rights Reserved by TODL Consulting.<br>
+{{--                    <div class="copyright-links"><a href="#">Terms of Use</a> / <a href="#">Privacy Policy</a></div>--}}
                 </div>
 
-                <div class="col-md-9">
-
-                    <div class="row col-mb-30">
-                        <div class="col-sm-6 col-lg-3">
-                            <div class="widget widget_links widget-li-noicon">
-                                <h4>Hire</h4>
-                                <ul>
-                                    <li><a href="#">Documentation</a></li>
-                                    <li><a href="#">Feedback</a></li>
-                                    <li><a href="#">Plugins</a></li>
-                                    <li><a href="#">Support Forums</a></li>
-                                    <li><a href="#">Themes</a></li>
-                                </ul>
-                            </div>
-                        </div>
+                <div class="col-12 col-md-auto text-center text-md-end">
+                    <div class="copyrights-menu copyright-links">
+                        <a href="#">Home</a>/<a href="#">About Us</a>/<a href="#">Team</a>/<a href="#">Clients</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
                     </div>
-
-                    <div class="line line-sm"></div>
-
-                    <div class="row justify-content-between col-mb-30">
-                        <div class="col-12 col-md-auto text-center text-md-start">
-                            <small class="fw-light" style="color: #AAA">Copyrights &copy; 2023 All Rights Reserved by Canvas Inc.</small>
-                        </div>
-
-                        <div class="col-12 col-md-auto text-center text-md-end">
-                            <a href="#" class="social-icon si-mini rounded-circle border-0 text-light bg-facebook">
-                                <i class="fa-brands fa-facebook-f"></i>
-                                <i class="fa-brands fa-facebook-f"></i>
-                            </a>
-
-                            <a href="#" class="social-icon si-mini rounded-circle border-0 text-light bg-twitter">
-                                <i class="fa-brands fa-twitter"></i>
-                                <i class="fa-brands fa-twitter"></i>
-                            </a>
-
-                            <a href="#" class="social-icon si-mini rounded-circle border-0 text-light bg-google">
-                                <i class="fa-brands fa-google"></i>
-                                <i class="fa-brands fa-google"></i>
-                            </a>
-
-                            <a href="#" class="social-icon si-mini rounded-circle border-0 text-light bg-pinterest">
-                                <i class="fa-brands fa-pinterest-p"></i>
-                                <i class="fa-brands fa-pinterest-p"></i>
-                            </a>
-
-                            <a href="#" class="social-icon si-mini rounded-circle border-0 text-light bg-vimeo">
-                                <i class="fa-brands fa-vimeo-v"></i>
-                                <i class="fa-brands fa-vimeo-v"></i>
-                            </a>
-
-                            <a href="#" class="social-icon si-mini rounded-circle border-0 text-light bg-instagram">
-                                <i class="bi-instagram"></i>
-                                <i class="bi-instagram"></i>
-                            </a>
-                        </div>
-                    </div>
-
                 </div>
             </div>
 

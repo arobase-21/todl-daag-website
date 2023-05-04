@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\EventController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ServiceController;
 use Illuminate\Support\Facades\Route;
@@ -22,3 +23,6 @@ Route::get('/contact-us', function () {
 Route::resource('services', ServiceController::class)
     ->name('show', 'service-details')
     ->name('index', 'services');
+Route::resource('events', EventController::class)
+    ->name('show', 'event-details')
+    ->name('index', 'events');

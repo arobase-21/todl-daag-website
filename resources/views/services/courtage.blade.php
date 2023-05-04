@@ -1,6 +1,30 @@
 @extends('layouts.main')
 
 @section('content')
+    {{--<section id="slider" class="slider-element min-vh-60 min-vh-md-100 include-header" style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.8)), url('{{ asset('demos/coworking/images/about/hero.jpg') }}') no-repeat center center / cover;">
+        <div class="slider-inner">
+
+            <div class="vertical-middle">
+                <div class="container dark py-5 py-md-0">
+                    <div class="row justify-content-between mt-5 col-mb-50">
+                        <div class="col-lg-6 parallax" data-0="transform: translateY(0px); opacity: 1" data-300="transform: translateY(50px); opacity: 0">
+                            <span class="gradient-underline h4">SemiColonWeb 2021</span>
+                            <h2 class="fw-bold display-2 mb-0">Canvas Development Conference.</h2>
+                        </div>
+                        <div class="col-lg-6 d-flex align-items-lg-end flex-column parallax text-start text-lg-end mb-5 mb-lg-0" data-0="transform: translateY(0px)" data-700="transform: translateY(-50px)">
+                            <div class="mt-auto">
+                                <h2 class="mb-2 gradient-text">March 17-19, 2021</h2>
+                                <h4 class="fw-normal">795 Folsom Ave, Suite 600<br>San Francisco, CA 94107</h4>
+                                <a href="#section-tickets" class="button ls-1 text-uppercase fw-semibold button-xxlarge button-white button-gradient m-0" data-scrollto="#section-tickets">Get Tickets Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>--}}
+
     <section id="content">
         <div class="content-wrap pb-0">
 

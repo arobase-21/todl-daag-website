@@ -174,7 +174,7 @@
                                     <div class="fbox-content">
                                         <div class="counter"><span data-from="1" data-to="15" data-refresh-interval="3" data-speed="600"></span>+</div>
                                         <h3>Cooperative agricole partenaire.</h3>
-                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quod consectetur.</p>
+{{--                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, quod consectetur.</p>--}}
                                     </div>
                                 </div>
                             </div>
@@ -187,7 +187,7 @@
                                     <div class="fbox-content">
                                         <div class="counter"><span data-from="100" data-to="3000" data-refresh-interval="300" data-speed="900"></span>+</div>
                                         <h3>Tonnes exportées</h3>
-                                        <p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Beatae impedit, dignissimos vitae!</p>
+{{--                                        <p>Lorem ipsum dolor, sit, amet consectetur adipisicing elit. Beatae impedit, dignissimos vitae!</p>--}}
                                     </div>
                                 </div>
                             </div>
@@ -200,7 +200,7 @@
                                     <div class="fbox-content">
                                         <div class="counter"><span data-from="100" data-to="5000" data-refresh-interval="100" data-speed="1000"></span>+</div>
                                         <h3>Producteurs partenaires</h3>
-                                        <p>Amet consectetur adipisicing elit. Accusantium dolores magnam ab consequuntur, impedit.</p>
+{{--                                        <p>Amet consectetur adipisicing elit. Accusantium dolores magnam ab consequuntur, impedit.</p>--}}
                                     </div>
                                 </div>
                             </div>
@@ -213,7 +213,7 @@
                                     <div class="fbox-content">
                                         <div class="counter"><span data-from="1" data-to="8" data-refresh-interval="2" data-speed="300"></span>+</div>
                                         <h3>Années d'expérience</h3>
-                                        <p>Amet consectetur adipisicing elit. Accusantium dolores magnam ab consequuntur, impedit.</p>
+{{--                                        <p>Amet consectetur adipisicing elit. Accusantium dolores magnam ab consequuntur, impedit.</p>--}}
                                     </div>
                                 </div>
                             </div>
@@ -407,7 +407,7 @@
                 </div>
                 <div class="row contact-properties">
                     <div class="col-md-4">
-                        <a href="event-second-edition.html" style="background: url('{{ asset('demos/pet/images/help/1.png') }}') no-repeat center center; background-size: cover;">
+                        <a href="{{ route('event-details', ['event' => 'edition-2']) }}" style="background: url('{{ asset('demos/pet/images/help/1.png') }}') no-repeat center center; background-size: cover;">
                             <div class="vertical-middle dark text-center">
                                 <div class="heading-block m-0 border-0">
                                     <h3 class="text-capitalize fw-normal font-secondary">2ᵉ édition de la Conférence sur l'Entrepreneuriat Agricole</h3>
