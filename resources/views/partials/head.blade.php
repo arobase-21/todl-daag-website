@@ -19,7 +19,7 @@
 
 {{--<!-- Niche Demos -->--}}
 <link rel="stylesheet" href="{{ asset('demos/pet/pet.css') }}">
-<link rel="stylesheet" href="{{ asset('demos/business/business.css') }}">
+{{--<link rel="stylesheet" href="{{ asset('demos/business/business.css') }}">--}}
 
 {{--<!-- Custom CSS -->--}}
 <link rel="stylesheet" href="{{ asset('css/custom.css') }}">
