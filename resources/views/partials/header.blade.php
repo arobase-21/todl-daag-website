@@ -1,5 +1,12 @@
 
-<header id="header" class="full-header transparent-header dark header-size-md" data-sticky-class="not-dark" data-responsive-class="not-dark" data-sticky-offset="full" data-sticky-offset-negative="auto">
+<header
+    id="header"
+    class="full-header transparent-header dark header-size-md"
+    data-sticky-class="not-dark"
+    data-responsive-class="not-dark"
+    data-sticky-offset="full"
+    data-sticky-offset-negative="auto"
+>
     <div id="header-wrap">
         <div class="container">
             <div class="header-row">
@@ -21,7 +28,9 @@
                 </div>
 
                 <div class="header-misc">
-                    <a class="top-phone" href="tel:+618-234-532-45"><i class="fa-solid fa-phone"></i> <span class="d-none d-md-inline-block">+(61)8-234-532-45</span></a>
+                    <a class="top-phone" href="tel:{{ $companyContacts['phone'] }}">
+                        <i class="fa-solid fa-phone"></i> <span class="d-none d-md-inline-block">{{ $companyContacts['phone'] }}</span>
+                    </a>
                 </div>
 
                 <div class="primary-menu-trigger">
@@ -33,15 +42,15 @@
                 <nav class="primary-menu">
 
                     <ul class="menu-container">
-                        <li class="menu-item active"><a class="menu-link" href="#"><div>Accueil</div></a></li>
-                        <li class="menu-item"><a class="menu-link" href="#"><div>Services</div></a>
+                        <li class="menu-item active"><a class="menu-link" href="{{ route('home') }}"><div>Accueil</div></a></li>
+                        <li class="menu-item"><a class="menu-link" href="{{ route('services') }}"><div>Services</div></a>
                             <ul class="sub-menu-container" data-class="up-lg:not-dark">
-                                <li class="menu-item"><a class="menu-link" href="#"><div>Formations et Accompagnement</div></a></li>
-                                <li class="menu-item"><a class="menu-link" href="#"><div>Courtage Agricole</div></a></li>
-                                <li class="menu-item"><a class="menu-link" href="#"><div>Conseils Agricoles</div></a></li>
+                                <li class="menu-item"><a class="menu-link" href="{{ route('service-details', ['service' => 'formation']) }}"><div>Formations et Accompagnement</div></a></li>
+                                <li class="menu-item"><a class="menu-link" href="{{ route('service-details', ['service' => 'courtage']) }}"><div>Courtage Agricole</div></a></li>
+                                <li class="menu-item"><a class="menu-link" href="{{ route('service-details', ['service' => 'conseil']) }}"><div>Conseils Agricoles</div></a></li>
                             </ul>
                         </li>
-                        <li class="menu-item"><a class="menu-link" href="#"><div>Contacts</div></a></li>
+                        <li class="menu-item"><a class="menu-link" href="{{ route('contacts') }}"><div>Contacts</div></a></li>
                         <li class="menu-item"><a class="menu-link" href="#"><div>FAQs</div></a></li>
                         <li class="menu-item"><a class="menu-link" href="#"><div>Agenda</div></a></li>
                     </ul>
