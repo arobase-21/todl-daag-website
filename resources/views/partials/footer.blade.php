@@ -10,7 +10,7 @@
 
                 <div class="col-12 col-md-auto text-center text-md-end">
                     <div class="copyrights-menu copyright-links">
-                        <a href="#">Home</a>/<a href="#">About Us</a>/<a href="#">Team</a>/<a href="#">Clients</a>/<a href="#">FAQs</a>/<a href="#">Contact</a>
+                        <a href="{{ route('home') }}">Accueil</a>/<a href="{{ route('contacts') }}">Contacts</a>/<a href="{{ route('services') }}">Services</a>/<a href="{{ route('events') }}">Agenda</a>
                     </div>
                 </div>
             </div>

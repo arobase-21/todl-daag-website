@@ -1,26 +1,35 @@
 @extends('layouts.main')
 
 @section('content')
+    <section id="slider" class="slider-element min-vh-60 min-vh-md-100 include-header" style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.8)), url('{{ asset('images/services/hero/4.png') }}') no-repeat center center / cover;">
+        <div class="slider-inner">
+
+            <div class="vertical-middle">
+                <div class="container dark py-5 py-md-0">
+                    <div class="row justify-content-between mt-5 col-mb-50">
+                        <div class="col-lg-6 parallax" data-0="transform: translateY(0px); opacity: 1" data-300="transform: translateY(50px); opacity: 0">
+                            <span class="gradient-underline h4">
+                                Nos formations sont personnalisées pour répondre aux besoins des agriculteurs et des entrepreneurs,
+                                et sont axées sur des sujets clés tels que la gestion des ressources humaines, le marketing et le développement de produits.
+                            </span>
+                            <h2 class="fw-bold display-2 mb-0">Formations et Accompagnement</h2>
+                        </div>
+                        <div class="col-lg-6 d-flex align-items-lg-end flex-column parallax text-start text-lg-end mb-5 mb-lg-0" data-0="transform: translateY(0px)" data-700="transform: translateY(-50px)">
+                            <div class="mt-auto">
+                                <a href="{{ route('contacts') }}" class="button ls-1 text-uppercase fw-semibold button-xxlarge button-gradient m-0">S'inscrire</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
     <section id="content">
         <div class="content-wrap pb-0">
 
             <div class="container">
-                <div class="row justify-content-between align-items-end">
-                    <div class="col-md-8">
-                        <h2 class="display-4 text-dark fw-semibold ls--2">Formations et Accompagnement</h2>
-                        <p class="text-dark mb-0">
-                            Nos formations sont personnalisées pour répondre aux besoins des agriculteurs et des entrepreneurs,
-                            et sont axées sur des sujets clés tels que la gestion des ressources humaines, le marketing et le développement de produits.
-                            Le service d'accompagnement aide les agriculteurs à mettre en pratique les connaissances acquises lors des formations.
-                        </p>
-                    </div>
-                    <div class="col-md-3 text-md-end">
-                        <a href="#" class="button button-rounded button-large m-0 text-center fw-medium text-transform-none ls-0 fw-normal">S'inscrire</a>
-                    </div>
-                </div>
-
-                <img src="{{ asset('images/services/hero/4.png') }}" alt="Image" class="rounded-4 my-5">
-
                 <div class="row mt-5 mb-5 gutter-lg-50 align-items-center">
                     <div class="col-lg-6 p-lg-5">
                         <div class="heading-block border-bottom-0 mb-0">

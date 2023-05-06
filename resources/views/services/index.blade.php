@@ -1,10 +1,7 @@
 @extends('layouts.main')
 
 @section('content')
-    Nos services
-@endsection
+    @include('partials.services')
 
-
-@section('script')
-
+    @include('partials.contact')
 @endsection

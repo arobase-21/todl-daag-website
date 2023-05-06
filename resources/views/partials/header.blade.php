@@ -1,11 +1,15 @@
 
 <header
     id="header"
-    class="full-header transparent-header dark header-size-md"
-    data-sticky-class="not-dark"
-    data-responsive-class="not-dark"
-    data-sticky-offset="full"
-    data-sticky-offset-negative="auto"
+    @if(!in_array(Request::url(), [route('contacts'), route('events')]))
+        class="full-header transparent-header dark header-size-md"
+        data-sticky-class="not-dark"
+        data-responsive-class="not-dark"
+        data-sticky-offset="full"
+        data-sticky-offset-negative="auto"
+    @else
+        class="full-header dark header-size-md"
+    @endif
 >
     <div id="header-wrap">
         <div class="container">
@@ -48,6 +52,7 @@
                                 <li class="menu-item"><a class="menu-link" href="{{ route('service-details', ['service' => 'formation']) }}"><div>Formations et Accompagnement</div></a></li>
                                 <li class="menu-item"><a class="menu-link" href="{{ route('service-details', ['service' => 'courtage']) }}"><div>Courtage Agricole</div></a></li>
                                 <li class="menu-item"><a class="menu-link" href="{{ route('service-details', ['service' => 'conseil']) }}"><div>Conseils Agricoles</div></a></li>
+                                <li class="menu-item"><a class="menu-link" href="{{ route('service-details', ['service' => 'builder']) }}"><div>Builder</div></a></li>
                             </ul>
                         </li>
                         <li class="menu-item"><a class="menu-link" href="{{ route('contacts') }}"><div>Contacts</div></a></li>
