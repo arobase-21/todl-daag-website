@@ -1,5 +1,9 @@
 @extends('layouts.main')
 
+@section('title')
+    Conseils Agricoles
+@endsection
+
 @section('content')
     <section id="slider" class="slider-element min-vh-60 min-vh-md-100 include-header" style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.8)), url('{{ asset('images/services/hero/2.png') }}') no-repeat center center / cover;">
         <div class="slider-inner">

@@ -1,5 +1,9 @@
 @extends('layouts.main')
 
+@section('title')
+    2ᵉ édition de la Conférence sur l'Entrepreneuriat Agricole
+@endsection
+
 @section('content')
     <section id="slider" class="slider-element min-vh-60 min-vh-md-100 include-header" style="background: linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.8)), url('{{ asset('demos/conference/images/hero-2.jpg') }}') no-repeat center center / cover;">
         <div class="slider-inner">

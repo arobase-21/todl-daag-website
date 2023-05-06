@@ -6,7 +6,7 @@
 
     @yield('meta')
 
-    <title>Accueil | TODL Consulting</title>
+    <title>@yield('title', 'Accueil') | TODL Consulting</title>
 
 </head>
 
