@@ -20,7 +20,7 @@
                         </div>
                         <div class="col-lg-6 d-flex align-items-lg-end flex-column parallax text-start text-lg-end mb-5 mb-lg-0" data-0="transform: translateY(0px)" data-700="transform: translateY(-50px)">
                             <div class="mt-auto">
-                                <a href="{{ route('contacts') }}" class="button ls-1 text-uppercase fw-semibold button-xxlarge button-gradient m-0" data-scrollto="#section-tickets">En savoir plus</a>
+                                <a href="{{ route('contacts') }}" class="button ls-1 text-uppercase fw-semibold button-xxlarge button-gradient m-0">En savoir plus</a>
                             </div>
                         </div>
                     </div>
