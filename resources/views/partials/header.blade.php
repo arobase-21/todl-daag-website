@@ -57,7 +57,7 @@
                         </li>
                         <li class="menu-item"><a class="menu-link" href="{{ route('contacts') }}"><div>Contacts</div></a></li>
 {{--                        <li class="menu-item"><a class="menu-link" href="#"><div>FAQs</div></a></li>--}}
-                        <li class="menu-item"><a class="menu-link" href="{{ route('events') }}"><div>Agenda</div></a></li>
+                        <li class="menu-item"><a class="menu-link" href="#"><div>Agenda</div></a></li>
                     </ul>
 
                 </nav>
