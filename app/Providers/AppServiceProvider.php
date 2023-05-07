@@ -47,13 +47,13 @@ class AppServiceProvider extends ServiceProvider
                 'url' => 'services/conseil',
                 'image' => asset('demos/pet/images/services/2.png'),
             ],
-            'builder' => [
+            /*'builder' => [
                 'title' => 'Builder',
                 'description' => 'Builder',
-//                'url' => route('service-details', ['service' => 'builder']),
+                'url' => route('service-details', ['service' => 'builder']),
                 'url' => 'services/builder',
                 'image' => asset('demos/pet/images/services/3.png'),
-            ]
+            ]*/
         ]);
     }
 }

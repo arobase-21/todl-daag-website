@@ -6,7 +6,7 @@
             <span>Découvrez comment nous pouvons aider votre entreprise agricole à réussir grâce à nos services sur mesure et notre expertise de l'industrie.</span>
         </div>
 
-        <div class="row align-items-stretch g-4">
+        <div class="row align-items-stretch g-4 justify-content-center">
 
             @foreach($companyServices as $service)
                 <div class="col-lg-3 col-md-6">
