@@ -56,7 +56,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 p-lg-5">
-                        <img src="{{ asset('demos/coworking/images/about/1.jpg') }}" alt="Image">
+                        <img src="{{ asset('images/services/formation/image 9.png') }}" alt="Image">
                     </div>
                 </div>
             </div>
@@ -76,7 +76,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 p-lg-5">
-                        <img src="{{ asset('demos/coworking/images/about/2.jpg') }}" alt="Image">
+                        <img src="{{ asset('images/services/formation/image 5.png') }}" alt="Image">
                     </div>
                 </div>
 
@@ -97,7 +97,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 p-lg-5">
-                        <img src="{{ asset('demos/coworking/images/about/2.jpg') }}" alt="Image">
+                        <img src="{{ asset('images/services/formation/image 8.png') }}" alt="Image">
                     </div>
                 </div>
 
@@ -118,7 +118,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 p-lg-5">
-                        <img src="{{ asset('demos/coworking/images/about/2.jpg') }}" alt="Image">
+                        <img src="{{ asset('images/services/formation/image 7.png') }}" alt="Image">
                     </div>
                 </div>
 
@@ -136,7 +136,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 p-lg-5">
-                        <img src="{{ asset('demos/coworking/images/about/2.jpg') }}" alt="Image">
+                        <img src="{{ asset('images/services/formation/image 6.png') }}" alt="Image">
                     </div>
                 </div>
 
