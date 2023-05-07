@@ -27,6 +27,10 @@
                 </div>
             </div>
 
+            <a href="#" data-scrollto="#content" data-offset="0" class="dark one-page-arrow">
+                <img class="infinite animated fadeInDown" src="{{ asset('demos/business/images/mouse.svg') }}" alt="Image" >
+            </a>
+
         </div>
     </section>
 

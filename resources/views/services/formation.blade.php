@@ -27,6 +27,10 @@
                 </div>
             </div>
 
+            <a href="#" data-scrollto="#content" data-offset="0" class="dark one-page-arrow">
+                <img class="infinite animated fadeInDown" src="{{ asset('demos/business/images/mouse.svg') }}" alt="Image" >
+            </a>
+
         </div>
     </section>
 
@@ -82,9 +86,6 @@
 
                 <div class="row flex-row-reverse mb-5 gutter-lg-50 align-items-center">
                     <div class="col-lg-6 p-lg-5">
-                        <img src="{{ asset('demos/coworking/images/about/2.jpg') }}" alt="Image">
-                    </div>
-                    <div class="col-lg-6 p-lg-5">
                         <div class="heading-block border-bottom-0 mb-0">
                             <h2 class="text-transform-none fw-semibold mb-4">NIVEAU INTERMEDIARE (EIA-I)</h2>
                             <ol class="list-numbers my-5">
@@ -94,6 +95,9 @@
                                 <li>Création est gestion d’une société coopérative</li>
                             </ol>
                         </div>
+                    </div>
+                    <div class="col-lg-6 p-lg-5">
+                        <img src="{{ asset('demos/coworking/images/about/2.jpg') }}" alt="Image">
                     </div>
                 </div>
 
@@ -124,15 +128,15 @@
 
                 <div class="row flex-row-reverse mb-5 gutter-lg-50 align-items-center">
                     <div class="col-lg-6 p-lg-5">
-                        <img src="{{ asset('demos/coworking/images/about/2.jpg') }}" alt="Image">
-                    </div>
-                    <div class="col-lg-6 p-lg-5">
                         <div class="heading-block border-bottom-0 mb-0">
                             <h2 class="text-transform-none fw-semibold mb-4">BROKERAGE AND TRADING TRIP</h2>
                             <ol class="list-numbers my-5">
                                 <li>Courtage et négoce international</li>
                             </ol>
                         </div>
+                    </div>
+                    <div class="col-lg-6 p-lg-5">
+                        <img src="{{ asset('demos/coworking/images/about/2.jpg') }}" alt="Image">
                     </div>
                 </div>
 

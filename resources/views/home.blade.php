@@ -77,9 +77,9 @@
                             <div class="row g-5">
                                 <div class="col-lg-10 col-md-8">
                                     <div class="feature-box fbox-plain">
-                                        <div class="fbox-icon">
-                                            <a href="#"><i class="icon-et-globe"></i></a>
-                                        </div>
+{{--                                        <div class="fbox-icon">--}}
+{{--                                            <a href="#"><i class="icon-et-globe"></i></a>--}}
+{{--                                        </div>--}}
                                         <div class="fbox-content">
                                             <h3>Expérience et expertise</h3>
                                             <p>
@@ -91,9 +91,9 @@
                                 </div>
                                 <div class="col-lg-10 col-md-8">
                                     <div class="feature-box fbox-plain">
-                                        <div class="fbox-icon">
-                                            <a href="#"><i class="icon-et-gears"></i></a>
-                                        </div>
+{{--                                        <div class="fbox-icon">--}}
+{{--                                            <a href="#"><i class="icon-et-gears"></i></a>--}}
+{{--                                        </div>--}}
                                         <div class="fbox-content">
                                             <h3>Approche personnalisée</h3>
                                             <p>
@@ -106,9 +106,9 @@
                                 </div>
                                 <div class="col-lg-10 col-md-8">
                                     <div class="feature-box fbox-plain">
-                                        <div class="fbox-icon">
-                                            <a href="#"><i class="icon-et-document"></i></a>
-                                        </div>
+{{--                                        <div class="fbox-icon">--}}
+{{--                                            <a href="#"><i class="icon-et-document"></i></a>--}}
+{{--                                        </div>--}}
                                         <div class="fbox-content">
                                             <h3>Engagement envers la durabilité</h3>
                                             <p>
@@ -379,7 +379,7 @@
                         <a href="{{ route('event-details', ['event' => 'edition-2']) }}" style="background: url('{{ asset('demos/pet/images/help/1.png') }}') no-repeat center center; background-size: cover;">
                             <div class="vertical-middle dark text-center">
                                 <div class="heading-block m-0 border-0">
-                                    <h3 class="text-capitalize fw-normal font-secondary">2ᵉ édition de la Conférence sur l'Entrepreneuriat Agricole</h3>
+                                    <h3 class="text-capitalize fw-normal " style="font-size: 1.3rem">2ᵉ édition de la Conférence sur l'Entrepreneuriat Agricole</h3>
                                     <span style="margin-top: 100px; font-size: 17px; font-weight: 500;">
                                             01BP1415, rue en face cour d'appel, Lomé<br>
                                             655W+7J Lomé, Togo

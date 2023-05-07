@@ -27,6 +27,10 @@
                 </div>
             </div>
 
+            <a href="#" data-scrollto="#content" data-offset="0" class="dark one-page-arrow">
+                <img class="infinite animated fadeInDown" src="{{ asset('demos/business/images/mouse.svg') }}" alt="Image" >
+            </a>
+
         </div>
     </section>
 
@@ -97,14 +101,14 @@
 
                 <div class="row flex-row-reverse mb-5 gutter-lg-50 align-items-center">
                     <div class="col-lg-6 p-lg-5">
-                        <img src="{{ asset('images/services/courtage/FARM-LEND.png') }}" alt="Image">
-                    </div>
-                    <div class="col-lg-6 p-lg-5">
                         <div class="heading-block border-bottom-0 mb-0">
                             <h2 class="text-transform-none fw-semibold mb-4">La solution FARM-LEND</h2>
                             <p>FARM-LEND est une solution de financement solidaire des actifs mobiliers et/ou des services d’entretiens d’exploitations agricoles.</p>
                             <p>Il finance la location des exploitations et/ou le labour, sarclage, semis, récolte et récupère en retour le remboursement en nature avec intérêt.</p>
                         </div>
+                    </div>
+                    <div class="col-lg-6 p-lg-5">
+                        <img src="{{ asset('images/services/courtage/FARM-LEND.png') }}" alt="Image">
                     </div>
                 </div>
 
