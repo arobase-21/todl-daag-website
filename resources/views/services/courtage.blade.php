@@ -87,7 +87,7 @@
                         </div>
                     </div>
                     <div class="col-lg-6 p-lg-5">
-                        <img src="{{ asset('demos/coworking/images/about/2.jpg') }}" alt="Image">
+                        <img src="{{ asset('images/services/courtage/ODI.png') }}" alt="Image">
                     </div>
                 </div>
 
@@ -97,7 +97,7 @@
 
                 <div class="row flex-row-reverse mb-5 gutter-lg-50 align-items-center">
                     <div class="col-lg-6 p-lg-5">
-                        <img src="{{ asset('demos/coworking/images/about/2.jpg') }}" alt="Image">
+                        <img src="{{ asset('images/services/courtage/FARM-LEND.png') }}" alt="Image">
                     </div>
                     <div class="col-lg-6 p-lg-5">
                         <div class="heading-block border-bottom-0 mb-0">
@@ -105,6 +105,23 @@
                             <p>FARM-LEND est une solution de financement solidaire des actifs mobiliers et/ou des services d’entretiens d’exploitations agricoles.</p>
                             <p>Il finance la location des exploitations et/ou le labour, sarclage, semis, récolte et récupère en retour le remboursement en nature avec intérêt.</p>
                         </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="container">
+
+                <div class="row flex-row-reverse mb-5 gutter-lg-50 align-items-center">
+                    <div class="col-lg-6 p-lg-5">
+                        <div class="heading-block border-bottom-0 mb-0">
+                            <h2 class="text-transform-none fw-semibold mb-4">La solution BUILDER</h2>
+                            <p>Via BUILDER l’investisseur apporte de l’argent au capital social de la société créée par porteur de projet.</p>
+                            <p>Il participe ainsi aux résultats (les bénéfices comme les pertes) et accepte le risque de perdre son capital si l’entreprise ne marche pas ou de faire une plus-value au bout de quelques années si l’entreprise fonctionne bien</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 p-lg-5">
+                        <img src="{{ asset('images/services/courtage/BUILDER.png') }}" alt="Image">
                     </div>
                 </div>
 

@@ -52,7 +52,7 @@
                                 <li class="menu-item"><a class="menu-link" href="{{ route('service-details', ['service' => 'formation']) }}"><div>Formations et Accompagnement</div></a></li>
                                 <li class="menu-item"><a class="menu-link" href="{{ route('service-details', ['service' => 'courtage']) }}"><div>Courtage Agricole</div></a></li>
                                 <li class="menu-item"><a class="menu-link" href="{{ route('service-details', ['service' => 'conseil']) }}"><div>Conseils Agricoles</div></a></li>
-                                <li class="menu-item"><a class="menu-link" href="{{ route('service-details', ['service' => 'builder']) }}"><div>Builder</div></a></li>
+{{--                                <li class="menu-item"><a class="menu-link" href="{{ route('service-details', ['service' => 'builder']) }}"><div>Builder</div></a></li>--}}
                             </ul>
                         </li>
                         <li class="menu-item"><a class="menu-link" href="{{ route('contacts') }}"><div>Contacts</div></a></li>

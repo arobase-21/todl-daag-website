@@ -12,7 +12,7 @@ class ServiceController extends Controller
     private array $services;
     public function __construct()
     {
-        $this->services = ['courtage', 'conseil', 'formation', 'builder'];
+        $this->services = ['courtage', 'conseil', 'formation'];
     }
 
     public function index(Request $request): View|Application|Factory
