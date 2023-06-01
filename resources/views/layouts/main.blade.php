@@ -29,13 +29,13 @@
 <script src="{{ asset('js/functions.js') }}"></script>
 
 <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C0DYETX5EG"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-R0MD1RCSS1"></script>
 <script>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
 
-    gtag('config', 'G-C0DYETX5EG');
+    gtag('config', 'G-R0MD1RCSS1');
 </script>
 
 </body>
