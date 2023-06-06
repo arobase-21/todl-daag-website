@@ -13,7 +13,7 @@
                     <div class="row justify-content-between mt-5 col-mb-50">
                         <div class="col-lg-6 parallax" data-0="transform: translateY(0px); opacity: 1" data-300="transform: translateY(50px); opacity: 0">
                             <span class="gradient-underline h4">
-                                Les conseillers agricoles de l'entreprise ont une grande expérience dans l'industrie agricole et offrent des conseils
+                                Les conseillers agricoles de notre entreprise ont une grande expérience dans l'industrie agricole et offrent des conseils
                                 personnalisés sur des sujets tels que la gestion des cultures, la planification des cultures et la gestion des ressources.
                             </span>
                             <h2 class="fw-bold display-2 mb-0">Conseils Agricoles</h2>
