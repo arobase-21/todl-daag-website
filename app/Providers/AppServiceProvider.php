@@ -31,6 +31,7 @@ class AppServiceProvider extends ServiceProvider
                 'description' => 'Formations et Accompagnement',
 //                'url' => route('service-details', ['service' => 'formation']),
                 'url' => 'services/formation',
+                "alias" => "formation",
                 'image' => asset('demos/pet/images/services/4.png'),
             ],
             'courtage' => [
@@ -38,6 +39,7 @@ class AppServiceProvider extends ServiceProvider
                 'description' => 'Courtage Agricole',
 //                'url' => route('service-details', ['service' => 'courtage']),
                 'url' => 'services/courtage',
+                "alias" => "courtage",
                 'image' => asset('demos/pet/images/services/1.png'),
             ],
             'conseil' => [
@@ -45,6 +47,7 @@ class AppServiceProvider extends ServiceProvider
                 'description' => 'Conseils Agricoles',
 //                'url' => route('service-details', ['service' => 'conseil']),
                 'url' => 'services/conseil',
+                "alias" => "conseil",
                 'image' => asset('demos/pet/images/services/2.png'),
             ],
             /*'builder' => [

@@ -3,6 +3,7 @@
 use App\Http\Controllers\EventController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\ServiceController;
+use App\Http\Controllers\SitemapController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -26,3 +27,6 @@ Route::resource('services', ServiceController::class)
 Route::resource('events', EventController::class)
     ->name('show', 'event-details')
     ->name('index', 'events');
+
+Route::get('/sitemap.xml', [SitemapController::class, 'index']);
+Route::get('/sitemap.xml/services', [SitemapController::class, 'services']);
