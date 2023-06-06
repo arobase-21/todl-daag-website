@@ -14,6 +14,12 @@
     </url>
 
     <url>
+        <loc>https://{{ request()->header('host') }}/services</loc>
+        <changefreq>monthly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+    <url>
         <loc>https://{{ request()->header('host') }}/sitemap.xml/services</loc>
         <changefreq>weekly</changefreq>
         <priority>0.8</priority>
