@@ -1,7 +1,6 @@
-
 <header
     id="header"
-    @if(!in_array(Request::url(), [route('contacts'), route('events'), route('services')]))
+    @if( in_array(Request::path(), [route('home', absolute: false), ]) )
         class="full-header transparent-header dark header-size-md"
         data-sticky-class="not-dark"
         data-responsive-class="not-dark"
